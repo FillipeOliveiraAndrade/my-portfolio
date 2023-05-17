@@ -1,13 +1,13 @@
 import React from 'react';
 import './about.css'
 import AboutImg from '../../assets/about.jpg'
-import CV from '../../assets/John-Cv.pdf'
+import CV from '../../assets/Fillipe-CV.pdf'
 import Info from './Info';
 
 function About() {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
+      <h2 className="section__title">Sobre Mim</h2>
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
