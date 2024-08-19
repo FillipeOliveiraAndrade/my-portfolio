@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "./qualification.css";
 
 function Qualification() {
@@ -6,7 +6,7 @@ function Qualification() {
 
   const toggleTab = (index) => {
     setToggleState(index);
-  }
+  };
 
   return (
     <section className="qualification section">
@@ -17,7 +17,9 @@ function Qualification() {
         <div className="qualification__tabs">
           <div
             className={
-              toggleState === 1 ? "qualification__button qualification-active button--flex" : "qualification__button button--flex"
+              toggleState === 1
+                ? "qualification__button qualification-active button--flex"
+                : "qualification__button button--flex"
             }
             onClick={() => toggleTab(1)}
           >
@@ -27,7 +29,9 @@ function Qualification() {
 
           <div
             className={
-              toggleState === 2 ? "qualification__button qualification-active button--flex" : "qualification__button button--flex"
+              toggleState === 2
+                ? "qualification__button qualification-active button--flex"
+                : "qualification__button button--flex"
             }
             onClick={() => toggleTab(2)}
           >
@@ -37,17 +41,22 @@ function Qualification() {
         </div>
 
         <div className="qualification__sections">
-          <div className={
-              toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"
+          <div
+            className={
+              toggleState === 1
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
             }
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
+                <h3 className="qualification__title">Computer Science</h3>
+                <span className="qualification__subtitle">
+                  Cruzeiro do Sul - Institute
+                </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  2024 - Present
                 </div>
               </div>
 
@@ -66,27 +75,49 @@ function Qualification() {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">Spain - Institute</span>
+                <h3 className="qualification__title">
+                  FullStack Web Development (Java)
+                </h3>
+                <span className="qualification__subtitle">
+                  Trybe - Institute
+                </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  2022 - 2023
+                </div>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  Development Mobile (React Native)
+                </h3>
+                <span className="qualification__subtitle">
+                  Trybe - Institute
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>
+                  2023 - 2024
                 </div>
               </div>
             </div>
           </div>
 
-          <div className={
-              toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"
+          <div
+            className={
+              toggleState === 2
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
             }
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
-                <span className="qualification__subtitle">Micosoft - Spain</span>
+                <h3 className="qualification__title">Front-End Developer</h3>
+                <span className="qualification__subtitle">
+                  CodeCraft - Brazil
+                </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  2022 - 2024
                 </div>
               </div>
 
@@ -105,28 +136,14 @@ function Qualification() {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">Apple Inc - Spain</span>
+                <h3 className="qualification__title">Freelancer</h3>
+                <span className="qualification__subtitle">
+                  ER System - Brazil
+                </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2021 - Present
+                  2023
                 </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>
-                  2018 - 2020
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <div className="qualification__line"></div>
               </div>
             </div>
           </div>

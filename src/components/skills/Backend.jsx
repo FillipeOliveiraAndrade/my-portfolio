@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Backend() {
   return (
@@ -20,7 +20,7 @@ function Backend() {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Express</h3>
+              <h3 className="skills__name">Java</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
@@ -39,6 +39,24 @@ function Backend() {
 
             <div>
               <h3 className="skills__name">MongoDB</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Postgres SQL</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Express</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
