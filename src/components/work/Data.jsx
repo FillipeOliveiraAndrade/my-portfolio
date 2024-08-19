@@ -13,13 +13,13 @@ const projectsData = [
     title: "Delivery de bebidas",
     category: "web",
   },
-  {
-    id: 2,
-    image: pokedex,
-    title: "Biblioteca de pokemons",
-    category: "web",
-    link: "https://pokenext-q3a7r2ctd-rakr-18.vercel.app/",
-  },
+  // {
+  //   id: 2,
+  //   image: pokedex,
+  //   title: "Biblioteca de pokemons",
+  //   category: "web",
+  //   link: "https://pokenext-q3a7r2ctd-rakr-18.vercel.app/",
+  // },
   {
     id: 3,
     image: portfolio,
